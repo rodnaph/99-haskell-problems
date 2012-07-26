@@ -23,3 +23,5 @@ _reverse2 xs = if (length xs) == 1
                 then [last xs]
                 else (_reverse2 (tail xs)) ++ [head xs]
 
+-- 6: is a list a palindrome
+
